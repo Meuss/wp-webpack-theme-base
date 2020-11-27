@@ -1,0 +1,24 @@
+{
+  "name": "webpack-theme",
+  "version": "1.0.0",
+  "description": "> Using wpack.io to bundle theme files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wpackio-scripts start",
+    "build": "wpackio-scripts build",
+    "bootstrap": "wpackio-scripts bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wpackio/entrypoint": "^5.0.0",
+    "core-js": "^3.8.0",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@wpackio/scripts": "^5.0.0",
+    "svgo": "^1.3.2",
+    "svgo-loader": "^2.2.1"
+  }
+}

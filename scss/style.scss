@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  color: #333;
+  a {
+    color: #333;
+  }
+  .logos {
+    display: flex;
+    margin: 10px auto 40px auto;
+    svg {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
